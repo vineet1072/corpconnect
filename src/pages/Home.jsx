@@ -2,6 +2,7 @@ import Navbar from "../components/navbar/Navbar";
 import Hero from "../components/hero/Hero";
 import Stats from "../components/stats/Stats";
 import ContactSection from "../components/contact/ContactSection";
+import Footer from "../components/footer/Footer";
 
 const Home = () => {
   const contactFields = [
@@ -62,6 +63,7 @@ const Home = () => {
         fields={contactFields}
         onSubmit={(data) => console.log("Contact form:", data)}
       />
+      <Footer />
     </>
   );
 };
